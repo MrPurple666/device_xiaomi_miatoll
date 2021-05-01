@@ -9,7 +9,7 @@ include vendor/xiaomi/miatoll/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/miatoll
 
-export ALLOW_MISSING_DEPENDENCIES=true
+ALLOW_MISSING_DEPENDENCIES := true
 BUILD_BROKEN_DUP_RULES := true
 
 # APEX image
